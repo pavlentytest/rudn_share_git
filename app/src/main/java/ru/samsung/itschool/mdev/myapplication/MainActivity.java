@@ -12,15 +12,23 @@ public class MainActivity extends AppCompatActivity {
     //is it compact?
     //kiop
 
-    private Button btn;
+
+    private Button btn, btn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btn = findViewById(R.id.button);
+        btn = findViewById(R.id.button30);
         btn.setOnClickListener(view -> {
             btn.setText("Bad button!");
+        });
+     // btn2 = findViewById(R.id.button2_0);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
         });
     }
 }
