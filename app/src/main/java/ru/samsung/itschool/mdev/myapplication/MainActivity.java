@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(view -> {
             btn.setText("Bad button!");
         });
-        btn2 = findViewById(R.id.button2_0);
+     // btn2 = findViewById(R.id.button2_0);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
