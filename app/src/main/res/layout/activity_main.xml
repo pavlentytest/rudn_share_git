@@ -15,4 +15,12 @@
         android:text="Button 3.0"
         tools:layout_editor_absoluteX="169dp"
         tools:layout_editor_absoluteY="522dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="112dp"
+        android:layout_height="20dp"
+        android:text="Android Studio"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="24dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
