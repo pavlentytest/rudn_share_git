@@ -11,7 +11,8 @@ public class MainActivity extends AppCompatActivity {
     //fffffdfff
     //is it compact?
 
-    private Button btn;
+
+    public Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
