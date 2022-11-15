@@ -13,6 +13,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button 2.0"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="520dp" />
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="519dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
