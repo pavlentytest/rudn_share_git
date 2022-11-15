@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
     //No
+    //fffffdfff
     //is it compact?
 
     @Override
