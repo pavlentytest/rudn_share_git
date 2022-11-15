@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+    //No
+    //fffffdfff
+    //is it compact?
 
     private Button btn;
 
@@ -15,11 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btn = findViewById(R.id.button);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
+        btn.setOnClickListener(view -> {
+            System.out.println("Ura!");
         });
     }
 }
